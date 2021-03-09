@@ -1,0 +1,95 @@
+/*
+Theme Name: Gal's Theme
+Theme URI: http://Galstheme.com
+Author: Gal Agai
+Author URI: http://agaigal.com/
+Description: This is my one and only site
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: galstheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body {
+  direction: rtl;
+  color: brown;
+  background-color: cornflowerblue;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  font-size: 1.1rem;
+}
+
+article {
+  display: flex;
+}
+h2 {
+  margin-bottom: 0;
+}
+span {
+  line-height: 1.7rem;
+}
+header {
+  background-color: tomato;
+  display: flex;
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+h1 {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.section-inner {
+  display: flex;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  color: white;
+}
+p.skill {
+  background-color: cornflowerblue;
+  padding: 0.1rem 0.56em;
+  border-radius: 4px;
+}
+.footer-credits {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.left {
+  width: 48%;
+  padding-right: 4rem;
+}
+.img-rap {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+article .right {
+  width: 25%;
+}
+.right img {
+  width: 200px;
+  height: 200px;
+}
+.left p {
+  font-size: 0.8rem;
+  margin: 2px;
+}
+footer#site-footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}

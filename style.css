@@ -66,6 +66,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  max-width: 350px;
 }
 .left {
   width: 48%;
